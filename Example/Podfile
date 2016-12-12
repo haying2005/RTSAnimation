@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RTSAnimation_Example' do
+  pod 'RTSAnimation', :path => '../'
+
+  target 'RTSAnimation_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
