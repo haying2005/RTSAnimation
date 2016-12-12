@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RTSAnimation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RTSAnimation.'
+  s.summary          = '直播类APP礼物动画实现'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,8 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fangwenyu' => 'haying2005@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/RTSAnimation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/haying2005/RTSAnimation.git', :tag => s.version.to_s }
+  #s.source           = { :git => 'https://192.168.31.91:8443/r/iOS_library/RTSAnimator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
