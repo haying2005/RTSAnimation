@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9E919D7D5808BA73E090CF5B /* Pods_RTSAnimation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3940A93EBC9359C47D9ACCA4 /* Pods_RTSAnimation_Tests.framework */; };
+		CC92E8051DFE798D00C41AD5 /* gift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC92E8041DFE798D00C41AD5 /* gift.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B61CFCE93251CF5D7F1F3F76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B95E33FDA2F862029C4FD1F4 /* RTSAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RTSAnimation.podspec; path = ../RTSAnimation.podspec; sourceTree = "<group>"; };
 		C3C6E6410B57567664EE4B95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC92E8041DFE798D00C41AD5 /* gift.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = gift.bundle; sourceTree = "<group>"; };
 		E28231BA2D63974D7BEAC57E /* Pods-RTSAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTSAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTSAnimation_Tests/Pods-RTSAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC0910F4E2C60F19C06AEB7E /* Pods-RTSAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTSAnimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTSAnimation_Tests/Pods-RTSAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 		6003F593195388D20070C39A /* Example for RTSAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				CC92E8041DFE798D00C41AD5 /* gift.bundle */,
 				6003F59C195388D20070C39A /* WYAppDelegate.h */,
 				6003F59D195388D20070C39A /* WYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				CC92E8051DFE798D00C41AD5 /* gift.bundle in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

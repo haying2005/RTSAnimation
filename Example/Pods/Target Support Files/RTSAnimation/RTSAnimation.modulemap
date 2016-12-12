@@ -1,0 +1,6 @@
+framework module RTSAnimation {
+  umbrella header "RTSAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_RTSAnimation_Tests {
+  umbrella header "Pods-RTSAnimation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

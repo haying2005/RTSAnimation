@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - RTSAnimation (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - RTSAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  RTSAnimation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  RTSAnimation: 0f9f72c4fde57976b3ffdfc79ee0820d01fb23c8
+
+PODFILE CHECKSUM: 06223cd8ad21a810a85fdc8d851b33a18cd6543e
+
+COCOAPODS: 1.1.0.rc.3
